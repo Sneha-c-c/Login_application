@@ -28,6 +28,7 @@ This project demonstrates clean code structure, form validation, API integration
 ## Test Credentials
 
 Email: test@example.com
+
 Password: Password@123
 
 
@@ -37,8 +38,9 @@ Password: Password@123
 
 
 ### Clone the Repository
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/Sneha-c-c/Login_application.git
+
+cd Login_application
 
 #### Run the Backend (Node.js)
 
@@ -52,7 +54,7 @@ Backend will run on:
 http://localhost:5000
 
 
-Health check:
+### Health check:
 
 http://localhost:5000/health
 
