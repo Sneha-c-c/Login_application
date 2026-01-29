@@ -50,6 +50,7 @@ cd Login_application
 cd server
 npm install
 npm run dev
+```
 
 Backend will run on:
 
@@ -69,6 +70,7 @@ Open a new terminal window:
 cd client
 npm install
 npm run dev
+```
 
 
 Frontend will run on:
