@@ -8,6 +8,7 @@ This project demonstrates clean code structure, form validation, API integration
 ## Features
 
 ### Frontend
+
 - React with Vite
 - Login form with Email and Password
 - Mandatory field indication (*)
@@ -16,6 +17,7 @@ This project demonstrates clean code structure, form validation, API integration
 - Clean and modular folder structure
 
 ### Backend
+
 - Node.js with Express
 - Login API (`POST /api/login`)
 - Input validation
@@ -27,9 +29,9 @@ This project demonstrates clean code structure, form validation, API integration
 
 ## Test Credentials
 
-Email: test@example.com
+Email: admin@gmail.com
 
-Password: Password@123
+Password: Admin@123
 
 
 ---
@@ -42,7 +44,7 @@ git clone https://github.com/Sneha-c-c/Login_application.git
 
 cd Login_application
 
-#### Run the Backend (Node.js)
+### Run the Backend (Node.js)
 
 cd server
 npm install
@@ -57,6 +59,7 @@ http://localhost:5000
 ### Health check:
 
 http://localhost:5000/health
+
 
 ### Run the Frontend (React)
 
@@ -78,12 +81,12 @@ http://localhost:5173
 
 ### Login API
 
-Endpoint
+#### Endpoint
 
 POST /api/login
 
 
-Request Body
+#### Request Body
 
 {
   "email": "test@example.com",
@@ -91,7 +94,7 @@ Request Body
 }
 
 
-Success Response
+#### Success Response
 
 {
   "success": true,
@@ -99,7 +102,7 @@ Success Response
 }
 
 
-Error Response
+#### Error Response
 
 {
   "success": false,
