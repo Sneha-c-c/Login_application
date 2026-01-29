@@ -46,13 +46,10 @@ cd Login_application
 
 ### Run the Backend (Node.js)
 
----
-
+```bash
 cd server
 npm install
 npm run dev
-
----
 
 Backend will run on:
 
@@ -68,6 +65,7 @@ http://localhost:5000/health
 
 Open a new terminal window:
 
+```bash
 cd client
 npm install
 npm run dev
@@ -78,36 +76,3 @@ Frontend will run on:
 http://localhost:5173
 
 ---
-
-## API Details
-
-
-### Login API
-
-#### Endpoint
-
-POST /api/login
-
-
-#### Request Body
-
-{
-  "email": "test@example.com",
-  "password": "Password@123"
-}
-
-
-#### Success Response
-
-{
-  "success": true,
-  "message": "Login successful"
-}
-
-
-#### Error Response
-
-{
-  "success": false,
-  "message": "Invalid email or password"
-}
