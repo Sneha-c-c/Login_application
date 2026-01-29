@@ -46,10 +46,13 @@ cd Login_application
 
 ### Run the Backend (Node.js)
 
+---
+
 cd server
 npm install
 npm run dev
 
+---
 
 Backend will run on:
 
