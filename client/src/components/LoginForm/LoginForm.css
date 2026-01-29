@@ -1,0 +1,82 @@
+.card {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  background: #fff;
+  display: grid;
+  gap: 14px;
+}
+
+.cardTitle {
+  text-align: center;
+  margin: 0 0 6px;
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.input {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.18);
+  outline: none;
+}
+
+.input:focus {
+  border-color: rgba(0,0,0,0.5);
+}
+
+.inputError {
+  border-color: #d33;
+}
+
+.button {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: #111;
+  color: #fff;
+  font-weight: 600;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.errorText {
+  color: #b00020;
+  font-size: 12px;
+  margin: 0;
+}
+
+.successText {
+  color: #0b7a28;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.errorBox {
+  background: rgba(176, 0, 32, 0.08);
+  border: 1px solid rgba(176, 0, 32, 0.25);
+  color: #b00020;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 13px;
+  margin: 0;
+  text-align: center;
+}
+
+.required {
+  color: #d32f2f; 
+  margin-left: 2px;
+  font-weight: bold;
+}
+
