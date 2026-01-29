@@ -1,6 +1,6 @@
 const SAMPLE_USERS = {
-  email: "test@example.com",
-  password: "Password@123",
+  email: "admin@gmail.com",
+  password: "Admin@123",
 };
 
 export function login(req, res) {
